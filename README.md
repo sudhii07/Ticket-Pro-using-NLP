@@ -7,21 +7,33 @@ The ticket is stored in Amazon DynamoDB, and the support team receives an email 
 🚀 Features
 
 ✅ AI-based sentiment analysis for support tickets
+
 ✅ Automatic priority assignment
+
 ✅ Admin dashboard for ticket monitoring
+
 ✅ Email notifications using AWS SNS
+
 ✅ Serverless ticket processing with AWS Lambda
+
 ✅ Cloud-based storage with DynamoDB
+
 ✅ Simple and user-friendly interface
 
 🧠 System Workflow
 
 1️⃣ User submits a support ticket
+
 2️⃣ Request is sent to AWS Lambda
+
 3️⃣ Amazon Comprehend analyzes the message sentiment
+
 4️⃣ System assigns ticket priority automatically
+
 5️⃣ Ticket is stored in DynamoDB
+
 6️⃣ SNS sends an email notification to the support team
+
 
 🛠️ Technologies Used
 Backend
@@ -59,23 +71,21 @@ AI-Support-Ticket-System/
 ├── admin_panel.py         # Admin dashboard for managing tickets
 
 ├── lambda_code.py         # AWS Lambda function for ticket analysis
-
 │
-
 ├── templates/             # HTML templates
 
 ├── static/                # CSS, JS, images
-
 │
-
 └── README.md
 
 ⚙️ Installation Guide
 
 1️⃣ Clone the Repository
 git clone https://github.com/sudhii07/Ticket pro using NLP.git
+
 2️⃣ Install Required Packages
 pip install flask boto3
+
 3️⃣ Configure AWS Credentials
 aws configure
 
@@ -114,22 +124,7 @@ Positive	Low
 
 Critical keywords such as urgent, failed, crash, error, payment automatically increase ticket priority.
 
-📸 Screenshots
 
-(Add screenshots here after uploading them to your repository)
-
-Example:
-
-screenshots/
-│
-├── homepage.png
-├── ticket-form.png
-├── admin-dashboard.png
-
-Then display them like:
-
-![Homepage](screenshots/homepage.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
 🔮 Future Enhancements
 
 AI chatbot integration
@@ -148,7 +143,6 @@ Sudhan Angadi
 
 🔗 GitHub: https://github.com/sudhii07
 
-🔗 LinkedIn: https://linkedin.com/in/yourprofile
 
 📜 License
 
